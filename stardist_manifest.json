@@ -1,0 +1,367 @@
+[
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,I]_[19902,45584].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_I___19902_45584_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,12,H]_[18045,54474].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_12_H___18045_54474_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,H]_[17950,45536].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_H___17950_45536_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,11,C]_[9091,52680].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_11_C___9091_52680_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,4,B]_[6948,40631].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_4_B___6948_40631_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,A]_[5091,35249].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_A___5091_35249_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,J]_[21617,37011].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_J___21617_37011_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,J]_[21617,38710].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_J___21617_38710_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,I]_[20045,50712].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_I___20045_50712_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,J]_[21903,50442].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_J___21903_50442_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,4,J]_[21665,40536].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_4_J___21665_40536_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,12,G]_[16283,54395].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_12_G___16283_54395_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,H]_[18093,48997].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_H___18093_48997_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,8,A]_[5281,47489].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_8_A___5281_47489_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,H]_[18140,50870].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_H___18140_50870_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,I]_[19998,48997].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_I___19998_48997_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,J]_[21379,35058].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_J___21379_35058_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,C]_[9044,49156].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_C___9044_49156_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,8,I]_[19902,47187].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_8_I___19902_47187_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,B]_[7186,49108].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_B___7186_49108_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,B]_[7044,45489].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_B___7044_45489_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,B]_[6901,38869].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_B___6901_38869_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,H]_[17759,35233].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_H___17759_35233_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,A]_[5234,44107].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_A___5234_44107_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,G]_[15997,34963].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_G___15997_34963_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,H]_[17759,36948].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_H___17759_36948_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,E]_[12663,48822].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_E___12663_48822_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,A]_[5377,51061].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_A___5377_51061_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,D]_[10568,38869].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_D___10568_38869_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,A]_[5043,37154].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_A___5043_37154_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,5,H]_[17997,41996].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_5_H___17997_41996_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,H]_[17855,43822].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_H___17855_43822_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,D]_[10711,45679].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_D___10711_45679_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,D]_[10473,35233].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_D___10473_35233_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,A]_[5234,45870].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_A___5234_45870_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,G]_[16283,48965].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_G___16283_48965_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,D]_[10473,37043].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_D___10473_37043_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,G]_[16330,50712].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_G___16330_50712_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,4,A]_[5091,40774].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_4_A___5091_40774_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,J]_[21855,48806].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_J___21855_48806_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,E]_[12378,38773].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_E___12378_38773_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,E]_[12711,50775].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_E___12711_50775_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,C]_[8663,37059].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_C___8663_37059_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,F]_[14521,50918].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_F___14521_50918_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,5,I]_[19855,42186].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_5_I___19855_42186_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,11,J]_[22093,52204].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_11_J___22093_52204_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,5,G]_[16045,42250].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_5_G___16045_42250_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,A]_[5043,38869].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_A___5043_38869_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,B]_[7234,51013].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_B___7234_51013_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,I]_[19950,43901].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_I___19950_43901_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,5,F]_[14187,42250].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_5_F___14187_42250_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,C]_[8710,38726].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_C___8710_38726_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,10,C]_[9044,50775].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_10_C___9044_50775_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,G]_[15950,38583].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_G___15950_38583_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,11,H]_[18188,52616].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_11_H___18188_52616_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,A]_[5281,49203].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_A___5281_49203_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,4,C]_[8758,40440].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_4_C___8758_40440_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,9,F]_[14473,49108].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_9_F___14473_49108_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,G]_[16045,43917].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_G___16045_43917_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,F]_[14235,44012].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_F___14235_44012_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,E]_[12330,35106].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_E___12330_35106_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,H]_[17807,38662].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_H___17807_38662_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,1,C]_[8663,35138].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_1_C___8663_35138_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,2,B]_[6853,37154].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_2_B___6853_37154_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,11,A]_[5519,52870].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_11_A___5519_52870_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,5,D]_[10616,42155].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_5_D___10616_42155_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,3,I]_[19712,38630].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_3_I___19712_38630_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,11,E]_[12759,52537].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_11_E___12759_52537_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,E]_[12473,44012].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_E___12473_44012_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,6,D]_[10616,43822].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_6_D___10616_43822_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,8,B]_[7091,47298].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_8_B___7091_47298_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,G]_[16092,45727].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_G___16092_45727_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,7,C]_[8853,45489].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./stardist_outputs/BOMI2_TIL_1_Core_1_7_C___8853_45489_.npy"
+ }
+]

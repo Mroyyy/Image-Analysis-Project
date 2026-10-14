@@ -1,0 +1,14 @@
+name: imageanalysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-image
+  - opencv
+  - ipykernel
+  - pip
+  - seaborn
+  - matplotlib
+  - numpy
+  - scipy
+prefix: /home/mar-a/miniconda3/envs/imageanalysis

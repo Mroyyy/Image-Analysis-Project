@@ -1,0 +1,12 @@
+[
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,8,G]_[16188,47394].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./seg_outputs/cellpose/BOMI2_TIL_1_Core_1_8_G___16188_47394_.npy"
+ },
+ {
+  "tif_path": "./Data/DAPI_PanCK_CD8/BOMI2_TIL_1_Core[1,8,H]_[17997,47282].ome.tif",
+  "dapi_channel": 2,
+  "output_path": "./seg_outputs/cellpose/BOMI2_TIL_1_Core_1_8_H___17997_47282_.npy"
+ }
+]

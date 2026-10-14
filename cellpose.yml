@@ -1,0 +1,7 @@
+name: cellpose_gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+prefix: /home/mar-a/miniconda3/envs/cellpose_gpu

@@ -1,0 +1,5 @@
+name: stardisst_tf
+channels:
+  - conda-forge
+  - defaults
+prefix: /home/mar-a/miniconda3/envs/stardisst_tf
