@@ -38,16 +38,17 @@ CLINICAL_CSV = "./Data/samples_clinical_merged.csv"
 ## Environments
 Three separate environments are used because the deep-learning packages require different versions of the same libraries.
 
-Environment	Used for	Key packages
-notebook	masks, watershed, statistics, figures	scikit-image 0.26.0, plus pandas, numpy, scipy, matplotlib and a survival-analysis package (see env_notebook.yml)
-StarDist	StarDist segmentation	stardist 0.9.2, csbdeep 0.8.2, TensorFlow 2.21.0
-Cellpose	Cellpose segmentation	cellpose 4.2.1.1, torch 2.5.1
+|Environment |	Used for	| Key packages
+---------------------------------------
+|notebook	masks, watershed, statistics, figures	scikit-image 0.26.0, plus pandas, numpy, scipy, matplotlib and a survival-analysis package (see env_notebook.yml)
+|StarDist	StarDist segmentation	stardist 0.9.2, csbdeep 0.8.2, TensorFlow 2.21.0
+|Cellpose	Cellpose segmentation	cellpose 4.2.1.1, torch 2.5.1
 
 Create each environment from its file, for example:
 ```
-conda env create -f env_notebook.yml
-conda env create -f env_stardist.yml
-conda env create -f env_cellpose.yml
+conda env create -f image_analysis.yml
+conda env create -f stardist.yml
+conda env create -f cellpose.yml
 ```
 StarDist and Cellpose were run on an NVIDIA GTX 1050 Max-Q GPU; watershed ran on the CPU.
 
@@ -78,26 +79,25 @@ The final section writes the result tables to report_tables/<setting>/.
 10. Export of the tables
 
 ## Key parameters
-Pixel size: 0.5 µm.
-CD8 mask: Gaussian σ = 1, intensity threshold > 150 (chosen by visual inspection; no outcome data were used).
-CD8+ call: nucleus dilated by 6 px (3 µm ring), nucleus removed; called CD8+ if more than 50% of the ring overlaps the CD8 mask.
-Density: CD8+ nuclei per mm² of compartment (total tissue, tumour, stroma), pooled per patient.
-Survival: time from diagnosis to death from any cause or last follow-up.
+**Pixel size:** 0.5 µm.
+**CD8 mask:** Gaussian σ = 1, intensity threshold > 150 (chosen by visual inspection; no outcome data were used).
+**CD8+ call:** nucleus dilated by 6 px (3 µm ring), nucleus removed; called CD8+ if more than 50% of the ring overlaps the CD8 mask.
+**Density:** CD8+ nuclei per mm² of compartment (total tissue, tumour, stroma), pooled per patient.
+**Survival:** time from diagnosis to death from any cause or last follow-up.
 
 ## Output files
 Written to report_tables/<setting>/:
-
-segmentation_summary.csv: nuclei counts per core and method
-density_agreement.csv: agreement between methods at patient level
-survival_results.csv: hazard ratios, confidence intervals and p-values per method
-bootstrap_hr_differences.csv: bootstrap differences in hazard ratios between methods
-cd8_call_sensitivity.csv: sensitivity of the CD8+ call
-methods_configuration.json: parameters and software versions
+_segmentation_summary.csv_: nuclei counts per core and method
+_density_agreement.csv_: agreement between methods at patient level
+_survival_results.csv_: hazard ratios, confidence intervals and p-values per method
+_bootstrap_hr_differences.csv_: bootstrap differences in hazard ratios between methods
+_cd8_call_sensitivity.csv_: sensitivity of the CD8+ call
+_methods_configuration.json_: parameters and software versions
 
 Patient-level tables (patient_table_*.csv) contain clinical data and are not included in the repository.
 
 ## Limitations
-No manual annotation, so no accuracy claims.
-Small single cohort with no detectable survival association, so the study cannot show how segmentation would affect a true effect.
-The CD8 threshold was chosen by visual inspection.
-Two cores with uneven illumination were excluded.
+- No manual annotation, so no accuracy claims.
+- Small single cohort with no detectable survival association, so the study cannot show how segmentation would affect a true effect.
+- The CD8 threshold was chosen by visual inspection.
+- Two cores with uneven illumination were excluded.
