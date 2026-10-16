@@ -38,11 +38,11 @@ CLINICAL_CSV = "./Data/samples_clinical_merged.csv"
 ## Environments
 Three separate environments are used because the deep-learning packages require different versions of the same libraries.
 
-|Environment |	Used for	| Key packages
----------------------------------------
-|notebook	masks, watershed, statistics, figures	scikit-image 0.26.0, plus pandas, numpy, scipy, matplotlib and a survival-analysis package (see env_notebook.yml)
-|StarDist	StarDist segmentation	stardist 0.9.2, csbdeep 0.8.2, TensorFlow 2.21.0
-|Cellpose	Cellpose segmentation	cellpose 4.2.1.1, torch 2.5.1
+|Environment |	Used for	             | Key packages  |
+| -----------| ----------------------| --------------|
+|notebook	   | masks, watershed, statistics, figures	  | scikit-image 0.26.0, plus pandas, numpy, scipy, matplotlib and a survival-analysis package (see image_analysis.yml) |
+|StarDist    |	StarDist segmentation	| stardist 0.9.2, csbdeep 0.8.2, TensorFlow 2.21.0 |
+|Cellpose    |	Cellpose segmentation	| cellpose 4.2.1.1, torch 2.5.1 |
 
 Create each environment from its file, for example:
 ```
