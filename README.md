@@ -16,12 +16,12 @@ There is **no manual ground truth**, so the code does not say which method is mo
 _See the report for the full results and the limitations._
 
 ## Repository contents
-- _pipeline_segmentation_benchmark.ipynb_	Main notebook: masks, segmentation, phenotyping, agreement analysis, survival analysis, export of tables
-- _stardist_runner_batch.py_	Runs StarDist (2D_versatile_fluo) on all cores; called from the notebook through a separate environment
-- _cellpose_runner_batch.py_	Runs Cellpose (cpsam) on all cores and writes its own configuration record
-- _image_analysis.yml_, _stardist.yml_, _cellpose.yml_	Conda environments (see below)
-- _cellpose_manifest.json_ Exact parameters used for the reported results from Cellpose
-- _stardist_manifest.json_ Exact parameters used for the reported results from StarDist
+- _**pipeline_segmentation_benchmark.ipynb**_	Main notebook: masks, segmentation, phenotyping, agreement analysis, survival analysis, export of tables
+- _**stardist_runner_batch.py**_	Runs StarDist (2D_versatile_fluo) on all cores; called from the notebook through a separate environment
+- _**cellpose_runner_batch.py**_	Runs Cellpose (cpsam) on all cores and writes its own configuration record
+- _**image_analysis.yml**_, _**stardist.yml**_, _**cellpose.yml**_	Conda environments (see below)
+- _**cellpose_manifest.json**_ Exact parameters used for the reported results from Cellpose
+- _**stardist_manifest.json**_ Exact parameters used for the reported results from StarDist
 
 ## Data (not included)
 The images and clinical table were provided by the course organizers and are not included in this repository.
@@ -40,7 +40,7 @@ Three separate environments are used because the deep-learning packages require 
 
 |Environment |	Used for	             | Key packages  |
 | -----------| ----------------------| --------------|
-|notebook	   | masks, watershed, statistics, figures	  | scikit-image 0.26.0, plus pandas, numpy, scipy, matplotlib and a survival-analysis package (see image_analysis.yml) |
+|notebook	   | masks, watershed, statistics, figures	  | scikit-image 0.26.0, pandas, numpy, scipy, matplotlib and a survival-analysis package (see image_analysis.yml) |
 |StarDist    |	StarDist segmentation	| stardist 0.9.2, csbdeep 0.8.2, TensorFlow 2.21.0 |
 |Cellpose    |	Cellpose segmentation	| cellpose 4.2.1.1, torch 2.5.1 |
 
@@ -63,7 +63,7 @@ In Section 1, set the paths to the Python interpreters and runner scripts of the
  CELLPOSE_RUNNER       = "./cellpose_runner_batch.py"
 ```
 Open the notebook in the notebook environment and run the cells in order. Segmentation outputs are saved as one .npy label image per core and method (seg_outputs/, stardist_outputs/) and are reused on later runs. Delete a folder to recompute it.
-The final section writes the result tables to report_tables/<setting>/.
+The final section writes the result tables to report_tables/.
 
 
 ## Notebook outline
@@ -80,19 +80,23 @@ The final section writes the result tables to report_tables/<setting>/.
 
 ## Key parameters
 **Pixel size:** 0.5 µm.
+
 **CD8 mask:** Gaussian σ = 1, intensity threshold > 150 (chosen by visual inspection; no outcome data were used).
+
 **CD8+ call:** nucleus dilated by 6 px (3 µm ring), nucleus removed; called CD8+ if more than 50% of the ring overlaps the CD8 mask.
+
 **Density:** CD8+ nuclei per mm² of compartment (total tissue, tumour, stroma), pooled per patient.
+
 **Survival:** time from diagnosis to death from any cause or last follow-up.
 
 ## Output files
-Written to report_tables/<setting>/:
-_segmentation_summary.csv_: nuclei counts per core and method
-_density_agreement.csv_: agreement between methods at patient level
-_survival_results.csv_: hazard ratios, confidence intervals and p-values per method
-_bootstrap_hr_differences.csv_: bootstrap differences in hazard ratios between methods
-_cd8_call_sensitivity.csv_: sensitivity of the CD8+ call
-_methods_configuration.json_: parameters and software versions
+Written to report_tables/:
+- **_segmentation_summary.csv_** nuclei counts per core and method
+- **_density_agreement.csv_** agreement between methods at patient level
+- **_survival_results.csv_** hazard ratios, confidence intervals and p-values per method
+- **_bootstrap_hr_differences.csv_** bootstrap differences in hazard ratios between methods
+- **_cd8_call_sensitivity.csv_** sensitivity of the CD8+ call
+- **_methods_configuration.json_** parameters and software versions
 
 Patient-level tables (patient_table_*.csv) contain clinical data and are not included in the repository.
 
